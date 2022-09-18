@@ -330,6 +330,19 @@ nav ul a:hover {
   flex-wrap: wrap;
   gap: 20px;
 }
+#team h2 {
+  position: relative;
+}
+#team h2::before {
+  content: "T";
+  color: rgba(50, 50, 50, 0.2);
+  font-weight: 400;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 #team .container > div {
   width: 250px;
   height: 250px;
@@ -375,6 +388,19 @@ nav ul a:hover {
   left: 0;
   top: 0;
   z-index: -1;
+}
+#contact h2 {
+  position: relative;
+}
+#contact h2::before {
+  content: "A";
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: 400;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #contact .container form {
   display: flex;
